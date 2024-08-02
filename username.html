@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username</title>
+</head>
+<body>
+    <h1>PATTERN FOR USERNAME</h1>
+    <form action="./response.html">
+    <label>USERNAME: &nbsp;</label>
+    <input type="text" name="username" id="username" required placeholder="Username" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&]).{8,14}" 
+    title="Username Should Consists of
+    * Atleast one upper case
+    * Atleast one lower case
+    * Atleast one special Character">
+
+    <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
